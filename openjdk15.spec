@@ -25,12 +25,12 @@
 Summary:	Open-source implementation of the Java Platform, Standard Edition
 Summary(pl.UTF-8):	Wolnoźródłowa implementacja Java 15 SE
 Name:		openjdk15
-Version:	15.0.6
-Release:	2
+Version:	15.0.7
+Release:	1
 License:	GPL v2
 Group:		Development/Languages/Java
 Source0:	https://github.com/openjdk/jdk15u/archive/jdk-%{version}-ga/%{name}-%{version}.tar.gz
-# Source0-md5:	b6c79fe06be88736f3a642d37d7bfe71
+# Source0-md5:	1b4290ad4f5dc49756184e33b8b364b9
 Source10:	make-cacerts.sh
 Patch0:		no_optflags.patch
 Patch1:		x32.patch
